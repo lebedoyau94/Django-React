@@ -54,36 +54,42 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Instala las dependencias de Python:
+## Instala las dependencias de Python:
 
 ```bash
 pip install -r requirements.txt
+```
 Aplica las migraciones para crear la base de datos:
 
 ```bash
 python manage.py migrate
+```
 Inicia el servidor de desarrollo:
 
 ```bash
 python manage.py runserver
+```
 El backend estará disponible en http://127.0.0.1:8000.
 
-3. Configurar el Frontend (React + Vite)
+## Configurar el Frontend (React + Vite)
 Navega a la carpeta frontend:
 
 ```bash
 cd ../frontend
+```
 Instala las dependencias de Node.js:
 
 ```bash
 npm install
+```
 Inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
+```
 El frontend estará disponible en http://localhost:5173.
 
-Estructura del Proyecto
+## Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
 
 
@@ -117,3 +123,5 @@ Marcar como completada: Las tareas pueden marcarse como completadas.
 Agrupación de tareas: Las tareas se agrupan automáticamente en "Completadas" e "Incompletas".
 
 Validaciones: El backend valida que los títulos no estén vacíos y no se dupliquen.
+
+ssh-keygen -t rsa -b 4096 -C "lbedoyauz@gmail.com"
