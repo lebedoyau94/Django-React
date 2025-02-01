@@ -123,5 +123,3 @@ Marcar como completada: Las tareas pueden marcarse como completadas.
 Agrupación de tareas: Las tareas se agrupan automáticamente en "Completadas" e "Incompletas".
 
 Validaciones: El backend valida que los títulos no estén vacíos y no se dupliquen.
-
-ssh-keygen -t rsa -b 4096 -C "lbedoyauz@gmail.com"
